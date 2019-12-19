@@ -25,7 +25,7 @@ En observant le diagramme, réponds aux questions suivantes. Tu dois créer un f
 10. Pourquoi y a-t-il deux relations entre **Answer** et **Question**?
 11. Peux-tu expliquer pourquoi la classe **QuizResult** se trouve entre les classes **User** et **Quiz**?
 12. Si un utilisateur souhaite tenter à nouveau un questionnaire, est-il prévu qu'il puisse voir à quelles questions il avait bien répondu précédemment? Si oui, où peut-on le voir sur le diagramme? Si non, que faudrait-il rajouter sur le diagramme pour pouvoir l'exprimer?
-
+3
 ## Deuxième partie: création de base de données
 
 Réalise à l'aide de PHPMyAdmin une base de données **exercice_quiz** qui corresponde aux spécifications données par le MCD fourni à la partie précédente. Ta base de données devra contenir:
