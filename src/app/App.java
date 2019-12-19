@@ -5,7 +5,7 @@ import java.sql.*;
 public class App {
     public static void main(String[] args) throws Exception {
         ResultSet users = DBManager.sendQuery(
-            "SELECT * SELECT Max(date) from _order"
+            "SELECT * SELECT COUNT(*) FROM _order WHERE id=1"
         );
 
         while (users.next()) {
