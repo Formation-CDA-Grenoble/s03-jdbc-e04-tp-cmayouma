@@ -5,7 +5,7 @@ import java.sql.*;
 public class App {
     public static void main(String[] args) throws Exception {
         ResultSet users = DBManager.sendQuery(
-            "SELECT * FROM `_order` WHERE id=5"
+            "SELECT * FROM `shipping_address` WHERE id=3"
         );
 
         while (users.next()) {
